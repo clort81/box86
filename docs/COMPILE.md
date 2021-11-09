@@ -1,5 +1,7 @@
 Compiling
 ----
+You must be in a 32-bit environment, not a 64 bit environment to compile
+
 #### for Pandora
 
  `mkdir build; cd build; cmake .. -DPANDORA=1 -DCMAKE_BUILD_TYPE=RelWithDebInfo; make`
